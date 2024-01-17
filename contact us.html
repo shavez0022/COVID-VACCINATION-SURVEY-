@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@800&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Baloo Tamma 2', cursive;
+        background: url('alessio-rinella-W7s5ffN_rVc-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        left: 3px;
+        top: 15px;
+
+    }
+
+    .left img {
+        width: 198px;
+        border-radius: 8px;
+
+    }
+
+
+    .mid {
+
+        display: block;
+        top: 50px;
+        padding-left: 380px;
+        margin: 15px auto;
+
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+
+    .nav li a {
+        color: white;
+        font-size: 27px;
+        text-decoration: none;
+        padding: 34px 14px;
+    }
+
+    .nav li a:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        background-color: rgba(255, 255, 255, 0.13);
+    }
+
+    .container {
+        font-size: 19px;
+        margin: 83px 623px;
+        padding: 2px 2px;
+        width: 49%;
+    }
+
+    .no {
+        font-size: 31px;
+        font-weight: bold;
+    }
+
+    .matter {
+        margin: 83px 623px;
+        padding: 17px 64px;
+        width: 26%;
+        background-color: white;
+        border-radius: 28px;
+    }
+
+    .form input {
+        font-family: 'Baloo Tamma 2', cursive;
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        margin: 10px auto;
+        padding: 4px 16px;
+        width: 67%;
+        border-radius: 8px;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        display: inline-block;
+        width: 49%;
+        margin: 24px auto;
+        padding: 7px 2px;
+        border-radius: 8px;
+        cursor: pointer
+    }
+
+    .btn:hover {
+        background-color: tomato;
+    }
+
+    .matter h1 {
+        text-align: center;
+    }
+
+    textarea {
+        font-family: 'Baloo Tamma 2', cursive;
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        margin: 2px auto;
+        padding: 0px 4px;
+        width: 91%;
+        border-radius: 8px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="211897920_3847074242065933_918019286321294634_n.png" alt="">
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="final project.html">Home</a></li>
+                <li><a href="Survey.html">Survey</a></li>
+                <li><a href="contact us.html" class="active">Contact us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        Dial Toll Free:<br>
+        <span class="no">1800 1212 88800</span><br>
+        You Have a Question or a Comment?<br>
+        –We know that sometimes its tough to find the infomation you need.
+        <span class="no">SO, ASK!</span>
+    </div>
+    <div class="matter">
+        <h1>Enter Your Details</h1>
+        <form action="xyz.php">
+            <div class="form">
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="form">
+                <input type="email"pattern=".+@gmail\.com" placeholder="eg: abc@gmail.com">
+            </div>
+
+            <div class="form">
+                <input type="text"size="12" placeholder="Enter your Ph.number">
+            </div>
+
+            <div>
+                <textarea name="myText" cols="30" rows="10" placeholder="Enter your query"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+            
+        </form>
+    </div>
+
+</body>
+
+</html>

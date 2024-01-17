@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    background: url('clay-banks-cEzMOp5FtV4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    
+    left: 3px;
+    top: 15px;
+
+}
+.left img{
+    
+    width: 198px;
+    border-radius: 8px;
+    
+}
+.head{
+    margin: 63px 257px;
+    padding: 15px 37px;
+    text-align: right;
+}
+
+
+.mid{
+    display: block;
+    top: 5px;
+    padding-left: 416px;
+    margin: 15px auto;
+    
+    
+}
+.nav li{
+    display: inline-block;
+    
+}
+
+.nav li a {
+    
+    color: rgba(15, 14, 14, 0.692);
+    font-size: 27px;
+    text-decoration: none;
+    padding: 34px 14px;
+}
+.nav li a:hover, .nav li a.active{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+.container{
+    background-color: #c7d2db7d;
+    margin: -71px 526px;
+    padding: 27px 31px;
+    width: 51%;
+    border-radius: 20px;
+}   

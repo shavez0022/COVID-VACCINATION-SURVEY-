@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Vaccination Survey</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="design.css">
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: 'Baloo Tamma 2', cursive;
+        background: url('pexels-anna-shvets-3786155.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+
+        left: 3px;
+        top: 15px;
+
+    }
+
+    .left img {
+        width: 198px;
+        border-radius: 8px;
+
+    }
+
+
+    .mid {
+        margin: 15px auto;
+        display: block;
+        top: 50px;
+        padding-left: 380px;
+        
+
+    }
+
+    .nav li {
+        display: inline-block;
+       
+        
+    }
+
+    .nav li a {
+        color: rgba(15, 14, 14, 0.692);
+        font-size: 27px;
+        text-decoration: none;
+        padding: 34px 14px;
+    }
+
+    .nav li a:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        background-color: rgba(255, 255, 255, 0.363);
+    }
+
+    .container {
+
+        margin: 126px 546px;
+        padding: 0px 0px;
+        width: 55%;
+    }
+
+    #register_form {
+        margin: 83px 7px;
+        width: 53%;
+        height: 700px;
+        background-color: rgba(255, 255, 255, 0.363);
+        border-radius: 13px;
+        text-align: center;
+    }
+
+    #register_form .r-form-tab {
+        font-family: 'Baloo Tamma 2', cursive;
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        margin: -10px auto;
+        padding: 6px 16px;
+        width: 46%;
+        border-radius: 8px;
+    }
+
+    #register_form #r-btn {
+
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        display: inline-block;
+        width: 25%;
+        margin: 20px auto;
+        padding: 5px 2px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="211897920_3847074242065933_918019286321294634_n.png" alt="">
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="final project.html">Home</a></li>
+                <li><a href="Survey.html" class="active">Survey</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+
+            <div id="register_form">
+                <h2 style="text-decoration: none;">Registration Form</h2><br>
+                <form action="">
+                    <input class="r-form-tab" type="text" placeholder="  Full Name*" required><br>
+
+                    <input class="r-form-tab" type="tel" placeholder="  Phone number*" required><br>
+
+                    <input class="r-form-tab" type="text" placeholder="  UID*" required><br>
+
+                    <input class="r-form-tab" type="email" placeholder="  E-mail*" required><br><br>
+
+                    <label style="text-decoration: none;font-size: 25px;">Vaccintaion Status</label><br>
+                    <div><!-- yeh vala div ko apne code mein copy kar lo aur purane vale radio button ko hata lena-->
+                        Vaccinated<input type="radio" name="vaccine"><br> Not Vaccinated <input type="radio"
+                            name="vaccine">
+                    </div><br>
+                    <label style="text-decoration: none;font-size: 25px;">Vaccintaion Status</label><br><br>
+                    <input class="r-form-tab" type="date"><br>
+
+                    <input class="r-form-tab" type="text" placeholder=" vaccine name"><br><br>
+                    <input type="Submit" id="r-btn">
+                    <input type="Reset" id="r-btn"><!--yeh reset vala bhi daal lena-->
+                </form>
+            </div>
+
+    </header>
+</body>
+
+</html>
